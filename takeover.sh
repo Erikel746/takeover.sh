@@ -3,7 +3,7 @@ set -e
 
 TO=/takeover
 OLD_INIT=$(readlink /proc/1/exe)
-PORT=80
+PORT=8123
 
 cd "$TO"
 
